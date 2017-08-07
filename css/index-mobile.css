@@ -1,0 +1,519 @@
+/*reset default style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*默认文字大小改为10px*/
+html {
+    font-size: 62.5%;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+
+/*使用rem相对根元素设置字体大小，Chrome中文最低支持字体大小为12px*/
+body {
+    font-size: 1.2rem;
+    float: left;
+}
+
+section {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0 1.8rem;
+}
+
+.container {
+    float: left;
+}
+
+#header {
+    width: 100%;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.banner-bg {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.banner {
+    float: left;
+}
+
+.banner-desc-wrapper {
+    position: absolute;
+}
+
+.banner-desc {
+    display: block;
+    width: 100%;
+    margin: 2.8rem auto auto;
+}
+
+.banner-buy-ticket {
+    text-align: center;
+    margin: 1.5rem auto auto;
+    left: 50%;
+    display: block;
+    width: 8.6rem;
+    height: 2.4rem;
+    background-color: #e94a23;
+    color: white;
+    font-size: 1.0rem;
+    line-height: 2.4rem;
+    border-radius: 0.2rem;
+}
+
+.line {
+    margin-top: 2rem;
+    height: 1px;
+    border-bottom: 1px solid #eee;
+}
+
+.title {
+    margin-top: 3rem;
+    margin-bottom: 1.6rem;
+    color: #e94a23;
+    text-align: center;
+}
+
+    .title h2 {
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
+        font-weight: normal;
+    }
+
+    .title h3 {
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+
+.content {
+    color: #575757;
+    font-size: 1.2rem;
+}
+
+    .content p {
+        line-height: 1.8rem;
+        margin-bottom: 2.4rem;
+    }
+
+        .content p a {
+            color: #e94a23;
+            text-decoration: none;
+        }
+
+.lecturer {
+    display: table-row;
+}
+
+.lecturer-avatar {
+    display: table-cell;
+    padding-right: 1rem;
+}
+
+    .lecturer-avatar img {
+        display: block;
+        width: 6rem;
+    }
+
+.lecturer-intro {
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 1.6rem;
+}
+
+    .lecturer-intro p {
+        margin-bottom: 0.6rem;
+    }
+
+.lecturer-intro-name {
+    color: #e94a23;
+    font-size: 1.4rem;
+}
+
+.lecturer-intro-brief {
+    font-size: 1.2rem;
+    color: #acacac;
+}
+
+.schedule {
+    display: table-row;
+}
+
+.schedule-breakout h2 {
+    color: #e94a23;
+    margin: 2rem 0;
+    font-weight: 500;
+}
+
+.schedule-breakout h3 {
+    color: #e94a23;
+    margin-top: -1.6rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.schedule-avatar {
+    display: table-cell;
+    padding: 0.6rem 0;
+}
+
+.schedule-avatar-holder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.schedule-avatar-line {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #e0e0e0;
+    left: 50%;
+    padding-left: -1px;
+}
+
+.schedule-avatar img {
+    display: block;
+    width: 4.4rem;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.schedule-clock {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 1.4rem;
+    padding-right: 0.6rem;
+    padding-top: 0.8rem;
+}
+
+    .schedule-clock img {
+        display: block;
+        width: 1.4rem;
+    }
+
+.schedule-detail {
+    display: table-cell;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+    padding-top: 0.6rem;
+    width: 100%;
+}
+
+.schedule-detail-main {
+    margin-bottom: 0.3rem;
+    float: left;
+    height: 100%;
+}
+
+    .schedule-detail-main p {
+        margin-left: 1.4rem;
+        margin-bottom: 0;
+        font-size: 1.4rem;
+    }
+
+.schedule-detail-time {
+    font-size: 1.4rem;
+    color: #e94a23;
+    margin-bottom: 1rem;
+}
+
+.schedule-detail-topic {
+    font-size: 1.4rem;
+    color: #252525;
+    margin-bottom: 1.2rem;
+}
+
+.training h2 {
+    font-weight: 500;
+    color: #252525;
+    margin-bottom: 0.6rem;
+}
+
+.training h3 {
+    font-weight: normal;
+    color: #e94a23;
+    margin-bottom: 1.8rem;
+}
+
+.training img {
+    display: block;
+    float: right;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.training p {
+    font-size: 1.2rem;
+}
+
+.training ul {
+    font-size: 1.2rem;
+    color: #e94a23;
+    list-style: inside;
+    margin-bottom: 2rem;
+}
+
+.club {
+    display: table-row;
+}
+
+.club-qrcode {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1.2rem;
+    color: #818181;
+}
+
+    .club-qrcode img {
+        display: block;
+        width: 8.8rem;
+        margin-bottom: 1rem;
+    }
+
+.club-desc {
+    display: table-cell;
+    padding-left: 1rem;
+}
+
+.ticket-declare {
+    height: 1.8rem;
+}
+
+.ticket-declare-img {
+    float: left;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.ticket-declare-text {
+    float: left;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #575757;
+    margin-bottom: 0.6rem;
+}
+
+.ticket-table-row,
+.ticket-table-row-en {
+    display: table;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+    /*word-wrap: break-word;*/
+}
+
+.ticket-table-row-title,
+.ticket-table-row-title-en {
+    display: table;
+    width: 100%;
+    background-color: #f5f6f6;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.ticket-table-row-title-cell {
+    display: table-cell;
+    color: #818181;
+    margin: 0;
+    width: 17%;
+    line-height: 4rem;
+    float: left;
+}
+
+.ticket-table-row-title-en .ticket-table-row-title-cell,
+.ticket-table-row-en .ticket-table-cell {
+    display: table-cell;
+    font-size: 1.2rem;
+    line-height: 4.2rem;
+    min-width: 20%;
+    float: left;
+}
+
+.ticket-table-cell {
+    display: table-cell;
+    font-size: 1.2rem;
+    line-height: 4.2rem;
+    width: 17%;
+    float: left;
+}
+
+.ticket-table-cell-small {
+    width: 14%;
+}
+
+.ticket-table-cell-large {
+    width: 20%;
+}
+
+
+.ticket-button-wrapper {
+    height: 4.2rem;
+    width: 15%;
+    float: left;
+}
+
+.ticket-button {
+    margin: 0.9rem auto auto;
+    height: 2.4rem;
+    width: 80%;
+    background-color: #e94a23;
+    border-radius: 4px;
+    line-height: 2.4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.quote-price {
+}
+
+.price {
+    color: #e94a23;
+}
+
+/*.partner h2 {*/
+/*font-weight: 500;*/
+/*color: #252525;*/
+/*margin-top: 1rem;*/
+/*margin-bottom: 1.4rem;*/
+/*text-decoration: none;*/
+/*}*/
+
+.partner-category-title {
+    height: 4rem;
+}
+
+    .partner-category-title h2 {
+        float: left;
+        line-height: 4rem;
+        font-weight: 500;
+        color: #252525;
+        width: 100%;
+    }
+
+    .partner-category-title p {
+        float: right;
+        line-height: 4rem;
+        margin: auto;
+        color: #e94a23;
+        font-size: 1.2em;
+    }
+
+
+.partner h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.partner-row {
+    display: table-row;
+}
+
+.partner-vertical {
+    float: left;
+}
+
+.partner-desc-wrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.partner-desc {
+    width: 68%;
+    float: right;
+    text-align: justify;
+}
+
+    .partner-desc a {
+        color: #e94a23;
+    }
+
+.partner-logo-float {
+    width: 25%;
+    float: left;
+}
+
+    .partner-logo-float img {
+        width: 8.2rem;
+        border: 1px solid #eee;
+    }
+
+.partner-logo {
+    display: table-cell;
+    width: 30%;
+    padding-right: 5%;
+}
+
+    .partner-logo img {
+        width: 8.2rem;
+        border: 1px solid #eee;
+    }
+
+.sponsor-link {
+    color: #e94a23;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+    .sponsor-link p {
+        margin-top: 0.8rem;
+    }
+
+#footer {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-content {
+    font-size: 1.4rem;
+    margin: 0.6rem 0;
+    min-height: 2rem;
+}
+
+    .footer-content img {
+        float: left;
+        display: block;
+        width: 1.6rem;
+        margin-right: 1rem;
+    }
+
+    .footer-content span {
+        float: left;
+        display: block;
+        line-height: 1.6rem;
+    }
+
+.clearfx {
+    clear: both;
+}
+
+
+#conference p{
+    line-height:1.6rem;
+    margin-bottom:1rem;
+}
+
+#conference img{
+    width:100%;
+}
+
+.conference-info-title{
+    float: left;
+    line-height: 4rem;
+    font-weight: 500;
+    color: #252525;
+    width: 100%;
+}
