@@ -517,3 +517,27 @@ section {
     color: #252525;
     width: 100%;
 }
+
+.sponsor-module-next {
+    margin-top: 42px;
+    margin-bottom: 150px;
+}
+
+.sponsor-theme {
+    color: #e94a23;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.sponsor-contact-left {
+    display: block;
+    overflow: hidden;
+}
+
+.sponsor-contact-text {
+    color: #575757;
+    line-height: 36px;
+}
+.spnsor-content {
+    
+}
