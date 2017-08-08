@@ -132,7 +132,8 @@ section {
     }
 
 .lecturer-intro-name {
-    color: #e94a23;
+    color: #020202;
+    font-weight: 600;
     font-size: 1.4rem;
 }
 

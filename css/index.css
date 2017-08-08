@@ -112,7 +112,7 @@ section {
     float: right;
     margin-top: 16px;
     height: 68px;
-    width: 270px;
+    width: 180px;
     color: #ffffff;
     background-color: #e94a23;
     border-radius: 2px;
@@ -470,8 +470,9 @@ section {
 }
 
 .speaker-content-cell-name {
-    color: #e94a23;
+    color: #020202;
     font-size: 22px;
+    font-weight: 500;
     margin-bottom: 14px;
 }
 
