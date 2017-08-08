@@ -448,7 +448,7 @@ section {
 }
 
     .partner-logo-float img {
-        width: 8.2rem;
+        width: 7.2rem;
         border: 1px solid #eee;
     }
 
@@ -541,4 +541,44 @@ section {
 }
 .spnsor-content {
     
+}
+.section_content {
+    padding: 0 6.4%;
+}
+.feature_item {
+    width: 25%;
+    float: left;
+    margin-bottom: 30px;
+    height: 88px;
+    padding: 1px 2.5%;
+}
+
+.feature_item_hi {
+    width: 33.33%;
+    float: left;
+    margin-bottom: 30px;
+    height: 88px;
+    }
+
+.feature_item_hi>img {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 1px 18%;
+}
+
+.feature_item>img {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.section_header_title {
+    font-size: 18px;
+    text-align: center;
+}
+.section_header_line {
+    margin: 12px auto 14px;
+    width: 13%;
+    height: 2px;
+    background-color: #3c67b1;
 }
