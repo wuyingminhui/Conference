@@ -412,6 +412,13 @@ section {
     opacity: 0.3;
 }
 
+.footer-row3 {
+    padding: 10px 0px;
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.8;
+}
+
 .footer-link {
     color: #fff;
     text-decoration: none;
