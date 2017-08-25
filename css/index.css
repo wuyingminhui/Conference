@@ -44,6 +44,17 @@ section {
     border-radius: 2px;
 }
 
+.post-button {
+    background-color: #20A2D0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 160px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 40px;
+}
+
 
 .banner-button-en {
     background-color: #e94a23;

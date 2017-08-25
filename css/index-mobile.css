@@ -377,6 +377,18 @@ section {
     color: #fff;
 }
 
+.post-button {
+    margin: 0px 10px;
+    height: 2.4rem;
+    width: 70%;
+    background-color: #20A2D0;
+    border-radius: 4px;
+    line-height: 2.4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
 .quote-price {
 }
 
