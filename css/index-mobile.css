@@ -61,7 +61,7 @@ section {
     display: block;
     width: 8.6rem;
     height: 2.4rem;
-    background-color: #e94a23;
+    background-color: #FF6537;
     color: white;
     font-size: 1.0rem;
     line-height: 2.4rem;
@@ -77,7 +77,7 @@ section {
 .title {
     margin-top: 3rem;
     margin-bottom: 1.6rem;
-    color: #e94a23;
+    color: #FF6537;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ section {
     }
 
         .content p a {
-            color: #e94a23;
+            color: #FF6537;
             text-decoration: none;
         }
 
@@ -147,13 +147,13 @@ section {
 }
 
 .schedule-breakout h2 {
-    color: #e94a23;
+    color: #FF6537;
     margin: 2rem 0;
     font-weight: 500;
 }
 
 .schedule-breakout h3 {
-    color: #e94a23;
+    color: #FF6537;
     margin-top: -1.6rem;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -222,7 +222,7 @@ section {
 
 .schedule-detail-time {
     font-size: 1.4rem;
-    color: #e94a23;
+    color: #FF6537;
     margin-bottom: 1rem;
 }
 
@@ -240,7 +240,7 @@ section {
 
 .training h3 {
     font-weight: normal;
-    color: #e94a23;
+    color: #FF6537;
     margin-bottom: 1.8rem;
 }
 
@@ -257,7 +257,7 @@ section {
 
 .training ul {
     font-size: 1.2rem;
-    color: #e94a23;
+    color: #FF6537;
     list-style: inside;
     margin-bottom: 2rem;
 }
@@ -369,7 +369,7 @@ section {
     margin: 0.9rem auto auto;
     height: 2.4rem;
     width: 80%;
-    background-color: #e94a23;
+    background-color: #FF6537;
     border-radius: 4px;
     line-height: 2.4rem;
     text-align: center;
@@ -393,7 +393,7 @@ section {
 }
 
 .price {
-    color: #e94a23;
+    color: #FF6537;
 }
 
 /*.partner h2 {*/
@@ -420,7 +420,7 @@ section {
         float: right;
         line-height: 4rem;
         margin: auto;
-        color: #e94a23;
+        color: #FF6537;
         font-size: 1.2em;
     }
 
@@ -451,7 +451,7 @@ section {
 }
 
     .partner-desc a {
-        color: #e94a23;
+        color: #FF6537;
     }
 
 .partner-logo-float {
@@ -476,7 +476,7 @@ section {
     }
 
 .sponsor-link {
-    color: #e94a23;
+    color: #FF6537;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -537,7 +537,7 @@ section {
 }
 
 .sponsor-theme {
-    color: #e94a23;
+    color: #FF6537;
     font-size: 32px;
     margin-bottom: 32px;
 }
